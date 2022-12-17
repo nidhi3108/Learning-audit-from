@@ -1,0 +1,78 @@
+
+body{
+    background-color: rgb(250, 246, 246);
+    font-size: 22px;
+    /* font-style:italic; */
+    font-family: cursive;
+    font-weight: 600;
+}
+#Learnheading{
+    background-color: blue;
+    height: 45px;
+    margin-left: -15px;
+    margin-right: -15px;
+    text-align: center;
+}
+.container{
+    border: 2px solid black;
+    margin-top: 3%;
+    width: 43%;
+    border-radius: 10px;
+}
+#pastInfo{
+    margin-left: 40px;
+    width: 50%;
+}
+#learningInfo{
+    /* margin-left: 40px; */
+    width: 100%;
+    background-color: rgba(17, 36, 250, 0.884) !important;
+}
+input,#pastInfo{
+    background-color: rgba(235, 219, 177, 0.884) !important;
+    border: 1px solid black !important;
+    /* width: 99%; */
+}
+#themeInfo{
+    width: 99%;
+    background-color: rgba(235, 219, 177, 0.884) !important;
+}
+#quesInfo{
+    color: rgb(13, 13, 13);
+    background-color: rgb(62, 62, 252);
+    width: 99%;
+}
+.serialnum{
+    display: flex;
+    justify-content: space-around;
+    /* width: 30px; */
+    /* font-size: 30px; */
+    size: 20px;
+}
+textarea{
+    background-color: rgba(235, 219, 177, 0.884) !important;
+}
+#checkbox{
+    width: 20px;
+}
+#option{
+    height: 99px;
+}
+#learningbox{
+    margin-left: -17px;
+}
+#choosebox{
+    margin-left: -17px;
+}
+#doneques{
+    margin-left: -37px;
+}
+option{
+    background-color: aliceblue;
+}
+h5{
+    margin-top: 6px;
+    font-family: cursive;
+    font-weight: 600;
+}
+

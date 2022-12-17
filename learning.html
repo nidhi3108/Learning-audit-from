@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Learning</title>
+  <link rel="stylesheet" href="learning.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <h3 id="Learnheading">Learning Audit</h3>
+    <form>
+      <!-- name section -->
+      <div class="form-group">
+        <label for="exampleInputEmail1">Enter your full name</label>
+        <input type="text" class="form-control" id="" aria-describedby="" placeholder="">
+      </div>
+      <!-- did you learn past week section -->
+      <div class="form-group d-flex justify-content-around">
+        <label for="">Did you learn in the past week?</label>
+        <select id="pastInfo">
+          <option value="volvo">Yes</option>
+          <option value="saab">No</option>
+        </select>
+      </div>
+      <!-- write down 3 learning of past week section -->
+      <div class="form-check" id="learningbox">
+        <label class="form-check-label" for="exampleCheck1">Amazing! Can you write down any 3 of your learnings from the
+          past week?</label>
+        <input type="text" class="form-control" id="" aria-describedby="">
+        <input type="text" class="form-control" id="" aria-describedby="">
+        <input type="text" class="form-control" id="" aria-describedby="">
+      </div>
+      <!-- choose one learning from them -->
+      <div class="form-check" id="choosebox">
+        <label class="form-check-label" for="exampleCheck1">Let's build upon! Can you choose 1 of your 3
+          learnings?</label>
+        <select id="learningInfo">
+          <option value="volvo">Importance of toc</option>
+          <option value="volvo">Importance of toc</option>
+          <option value="volvo">Importance of toc</option>
+        </select>
+      </div>
+      
+      <!-- Does reading the theme give rise to any relevant questions in your mind? section -->
+      <div class="form-group ">
+        <label for="">Does reading the theme give rise to any relevant questions in your mind?</label>
+        <select id="themeInfo">
+          <option value="volvo">Yes</option>
+          <option value="saab">No</option>
+        </select>
+      </div>
+      <!-- Write down a questionnaire (set of questions) that come up in your mind as you read the theme 1. -->
+      <div class="form-group ">
+        <label id="quesInfo" for="">Write down a questionnaire (set of questions) that come up in your mind as you read
+          the theme 1.</label>
+        <input type="text" class="form-control" id="" aria-describedby="" placeholder="Enter Questionnaire">
+      </div>
+      <!-- Are you done with your questionnaire? section -->
+      <div class="form-group d-flex justify-content-around" id="doneques">
+        <label for="">Are you done with your questionnaire? </label>
+        <h5>Yes, I am done!</h5>
+        <input type="checkbox" id="checkbox">
+      </div>
+      <!-- Please answer the questionnaire you came up with section -->
+      <div class="form-group ">
+        <label id="quesInfo" for="">Please answer the questionnaire you came up with.</label>
+        <h5>what are the disadvatages if we did not fill toc daily?</h5>
+        <input type="text" class="form-control" id="" aria-describedby="" placeholder="Enter Questionnaire">
+      </div>
+      <!-- While learning about the topic last week, did you question it the way you did now? If yes, what was the outcome? If not, then why? -->
+      <div class="form-group ">
+        <label id="quesInfo" for="">While learning about the topic last week, did you question it the way you did now?
+          If yes, what was the outcome? If not, then why?</label>
+        <input type="text" class="form-control" id="" aria-describedby="">
+      </div>
+      <!-- How did you implement what you learned about the topic last week? -->
+      <div class="form-group ">
+        <label id="quesInfo" for="">How did you implement what you learned about the topic last week?</label>
+        <input type="text" class="form-control" id="" aria-describedby="">
+      </div>
+      <!-- Ideally, how would you implement the learning you had after answering the questionnaire? -->
+      <div class="form-group ">
+        <label id="quesInfo" for="">Ideally, how would you implement the learning you had after answering the
+          questionnaire?</label>
+        <input type="text" class="form-control" id="" aria-describedby="">
+      </div>
+      <!-- On a scale of 1-5, how well did you introspect? -->
+      <div class="form-group ">
+        <label id="quesInfo" for="">On a scale of 1-5, how well did you introspect?</label>
+        <div class="serialnum">
+          <h5>1</h5>
+          <h5>2</h5>
+          <h5>3</h5>
+          <h5>4</h5>
+          <h5>5</h5>
+        </div>
+        <div class="serialnum">
+          <input type="checkbox">
+          <input type="checkbox">
+          <input type="checkbox">
+          <input type="checkbox">
+          <input type="checkbox">
+        </div>
+      </div>
+      <!-- Throughout the process, did you encounter any of the following? (if yes, write them down below after choosing from drop down) -->
+      <div class="form-group d-flex justify-content-around">
+        <label id="quesInfo" for="">Throughout the process, did you encounter any of the following?
+          (if yes, write them down below after choosing from drop down)</label>
+        <select id="option">
+          <option value="volvo">Motivation</option>
+          <option value="volvo">Motivation</option>
+          <option value="volvo">Motivation</option>
+          <option value="volvo">Motivation</option>
+          <option value="volvo">Motivation</option>
+          <option value="volvo">Motivation</option>
+          <option value="volvo">Motivation</option>
+        </select>
+      </div>
+      <!-- just a input box -->
+      <div class="form-group ">
+        <input type="text" class="form-control" id="" aria-describedby="">
+      </div>
+      <!-- Reflection -->
+      <div class="form-group ">
+        <label id="quesInfo" for="">Reflection</label>
+        <br>
+        <textarea name="" id="" cols="58" rows="3"></textarea>
+      </div>
+      <!-- On a scale of 1-5, how was this learning audit for you?? -->
+      <div class="form-group ">
+        <label id="quesInfo" for="">On a scale of 1-5, how was this learning audit for you??</label>
+        <div class="serialnum">
+          <h5>1</h5>
+          <h5>2</h5>
+          <h5>3</h5>
+          <h5>4</h5>
+          <h5>5</h5>
+        </div>
+        <div class="serialnum">
+          <input type="checkbox">
+          <input type="checkbox">
+          <input type="checkbox">
+          <input type="checkbox">
+          <input type="checkbox">
+        </div>
+      </div>
+      <!-- On a scale of 1-5, how excited are you about the next learning audit on a different theme?? -->
+      <div class="form-group ">
+        <label id="quesInfo" for="">On a scale of 1-5, how excited are you about the next learning audit on a different
+          theme??</label>
+        <div class="serialnum">
+          <h5>1</h5>
+          <h5>2</h5>
+          <h5>3</h5>
+          <h5>4</h5>
+          <h5>5</h5>
+        </div>
+        <div class="serialnum">
+          <input type="checkbox">
+          <input type="checkbox">
+          <input type="checkbox">
+          <input type="checkbox">
+          <input type="checkbox">
+        </div>
+      </div>
+      <!-- Please do share your feedback or any suggestion you might have. -->
+      <div class="form-group ">
+        <label id="quesInfo" for="">Please do share your feedback or any suggestion you might have.</label>
+        <textarea name="" id="" cols="58" rows="3"></textarea>
+      </div>
+      <!-- Do you think you deserve the number of stars ⭐ you received? Why do you think you recieved stars? How many do you think you should have gotten out of 31? Why?. -->
+      <div class="form-group ">
+        <label id="quesInfo" for="">Do you think you deserve the number of stars ⭐ you received?
+          Why do you think you recieved stars?
+          How many do you think you should have gotten out of 31? Why?.</label>
+        <textarea name="" id="" cols="58" rows="3"></textarea>
+      </div>
+      <p>Stars determine how properly you followed all the instructions and how much effort you put in while answering
+        all the questions of the audit (in other words, how introspective you were).
+
+        Do check out the leaderboard! :)</p>
+    </form>
+  </div>
+</body>
+
+</html>
